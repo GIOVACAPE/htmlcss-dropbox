@@ -1,0 +1,751 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.nav-bar{
+    width: 100%;
+    height: 10vh;
+    background-color: white;
+    position: fixed;
+    padding: 1.5rem 1rem 1rem 1.5rem;
+    z-index: 1;
+}
+
+.db-logo{
+    float: left;
+    
+}
+
+.nav-left{
+    float: left;
+}
+
+
+.nav-text > a{
+    padding: 0rem 2.2rem 2rem 3rem;
+    text-decoration: none; 
+    color: black;
+    vertical-align: middle;
+}
+.nav-text > a:hover{
+    border-bottom: 2px solid black;
+}
+
+.nav-right{
+    float: right;
+}
+
+.nav-btn{
+    float: right;
+}
+
+.nav-btn > a{
+    text-decoration: none;
+    color: white;
+    background-color: blue;
+    font-size: 12px;
+    padding: 0.7rem 1.7rem;
+}
+
+ a:hover.btn-hover{
+    background-color: rgba(0, 0, 255, 0.7);
+}
+
+/*Fine Nav-bar css */
+
+/* Inizio jumbo section css */
+
+.jumbo-section{
+    height: 90vh;
+    background-color: rgb(180 208 231);
+    position: relative;
+}
+
+.jumbo-section-container{
+    width: 80%;
+    height: 100%;
+    /* background-color: violet; */
+    margin: auto;
+    position: relative;
+}
+
+.jumbo-title{
+    position: relative;
+    width: 100%;
+    height: 40%;
+    /* background-color: tomato; */
+    margin: auto;
+}
+
+.jumbo-title > h1{
+    font-size: 68px;
+    font-weight: bold;
+    padding-top: 6rem;
+}
+
+.jumbo-paragraph{
+    position: relative;
+    padding-top: 2rem;
+    width: 30%;
+    height: 35%;
+    /* background-color: blueviolet;     */
+}
+
+.jumbo-paragraph > p{
+    font-size: 16px;
+    line-height: 1.3rem;
+}
+
+.btn-jumbo{
+    position: absolute;
+    bottom: 10%;
+
+}
+
+.btn-jumbo > a{
+    text-decoration: none;
+    color: white;
+    background-color: blue;
+    font-size: 14px;
+    font-weight: 800;
+    padding: 1rem 1rem 1rem 1rem;
+    vertical-align: middle;
+    margin-top: 3rem;
+}
+
+.annulla-p{
+    margin-top: 0.7rem;
+}
+
+.download-arrow{
+    font-size: 26px;
+    margin-top: 1.5rem;
+}
+
+.jumbo-img > img{
+    width: 60%;
+    height: 65%;
+    position: absolute;
+    bottom: -70px;
+    right: 5%;
+}
+
+
+/* fine jumbo section */
+
+/* inizio plan section */
+
+.plan-section{
+    /* height: 1500vh; */
+    position: relative;
+    /* background-color: green; */
+}
+
+.plan-section-container{
+    height: 180vh;
+    width: 70%;
+    /* background-color: hotpink; */
+    margin: auto;
+    font-size: 0;
+    margin-bottom: 4rem;
+}
+
+.look-for-plan-title > h2{
+    padding-top: 6rem;
+    font-size: 30px;
+}
+
+.month-year-checkbox{
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    font-size: 16px;
+}
+
+.month-year-checkbox > label{
+    
+    margin-right: 1rem;
+}
+
+.month-year-checkbox > input{
+    vertical-align: middle; 
+}
+
+.offer-table{
+    margin-top: 2rem;
+    border: 2px solid lightgray;
+    height: 85%;
+    width: calc((100% / 3) - 27px);
+    margin: 0px 20px;
+    display: inline-block;
+    position: relative;
+    
+}
+
+#first-table{
+    margin-left: 0;
+}
+
+#third-table{
+    margin-right: 0;
+}
+
+.offer-type{
+    position: absolute;
+    font-size: 14px;
+    color: gray;
+    width: 100%;
+    height: 5%;
+    text-align: center;
+    padding-top: 1.5rem;
+    
+    border-bottom: 2px solid lightgray;
+}
+
+.offer-special{
+    position: absolute;
+    font-size: 22px;
+    padding-left: 2rem;
+    /* background-color: blue; */
+    top: 10%;
+}
+
+.price{
+    position: absolute;
+    font-size: 16px;
+    font-weight: bold;
+    top: 15%;
+    padding-left: 2rem;
+}
+
+.cadence{
+    position: absolute;
+    font-size: 14px;
+    color: gray;
+    top: 20%;
+    padding-left: 2rem;
+}
+
+.user{
+    position: absolute;
+    font-size: 14px;
+    color: gray;
+    top: 30%;
+    padding-left: 2rem;
+}
+
+.archive-space{
+    position: absolute;
+    font-size: 16px;
+    color: gray;
+    padding-left: 2rem;
+    top: 35%;
+}
+
+.functions-prod{
+    position: absolute;
+    font-size: 16px;
+    color: gray;
+    padding-left: 2rem;
+    top: 40%;
+}
+
+.offer-btns{
+    font-size: 14px;
+    font-weight: 800;
+    vertical-align: middle;
+    margin-left: 2rem;
+    margin-top: 4rem;
+    position: absolute;
+    top: 45%;
+}
+
+.offer-btns > a{
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+    padding: 0.7rem 3rem 0.7rem 3.5rem;
+    background-color: blue;
+}
+
+
+
+.buy-now-text{
+    position: absolute;
+    font-size: 16px;
+    padding-left: 2rem;
+    top: 55%;
+}
+
+.break-line{
+    position: absolute;
+    margin-left: 2rem;
+    font-size: 16px;
+    top: 58%;
+    height: 2%;
+    width: 20%;
+    border-bottom: 3px solid lightgray;
+}
+
+.plan-highlights{
+    position: absolute;
+    font-size: 20px;
+    font-weight: bold;
+    top: 65%;
+    padding-left: 2rem;
+}
+
+.highlights-container{
+    position: absolute;
+    font-size: 16px;
+    top: 70%;
+    padding-left: 2rem;
+}
+
+.highlights-container > p{
+    margin-bottom: 1rem;
+}
+
+.highlights-container .fas{
+    color: blue;
+}
+
+
+.horizontal-table{
+    width: 70%;
+   padding-top: 1rem;
+    margin: auto;
+    height:5%;
+    margin-bottom: 4rem;
+    /* background-color: yellow; */
+    position: relative;
+    border: 2px solid lightgray;
+}
+
+.horizontal-table-header{
+    position: absolute;
+    font-size: 16px;
+    font-weight: bold;
+    color: gray;
+    width: 100%;
+    height: 20%;
+    text-align: center;
+    /* padding-top: 1rem; */
+    border-bottom: 1px solid lightgray;
+}
+
+.contact-office-text{
+    float: left;
+    width: 65%;
+    padding-left: 2rem;
+    padding-top: 4rem;
+    font-size: 20px;
+}
+
+.contact-office-text > p{
+    font-size: 14px;
+    font-weight: bold;
+    padding-top: 0.9rem;
+}
+
+.contact-office-text >p:last-of-type{
+    font-size: 12px;
+    color: gray;
+    padding-bottom: 2rem;
+}
+
+#horizontal-btn{
+    width: 35%;
+    font-size: 14px;
+    float: right;
+    margin-bottom: 100px;
+    position: relative;
+}
+
+#horizontal-btn > a{
+    position: absolute;
+    top: 1px;
+    right: 2rem;
+    color: white;
+    text-decoration: none;
+    background-color: blue;
+    padding: 0.7rem 3rem 0.7rem 3.5rem;
+} 
+
+#horizontal-btn > a:hover{
+ background-color: rgba(0, 0, 255, 0.7);
+}
+
+/* Inizio look for partner section */
+
+.look-for-partner-section{
+    position: relative;
+    width: 70%;
+    height: 370px;
+    margin: auto;
+    /* background-color: burlywood; */
+    padding-top: 1rem;
+    margin-bottom: 3rem;
+    
+}
+
+.img-section-look-for-partner{
+    width: 65%;
+    height: 90%;
+    float: left;
+}
+
+.img-section-look-for-partner > img{
+    width: 50%;
+    margin-left: 1rem;
+}
+
+.look-for-partner-text{
+    position: absolute;
+    top: 3rem;
+    right: 0;
+    width: 50%;
+}
+
+.look-for-partner-text > h4{
+    font-size: 30px;
+}
+
+.look-for-partner-text > p{
+    font-size: 14px;
+    margin-top: 0.8rem;
+    line-height: 1.3rem;
+    margin-bottom: 3rem;
+}
+
+.look-for-partner-text > a{
+    color: gray;
+    border: 1px solid gray;
+    text-decoration: none;
+    background-color: white;
+    padding: 0.7rem 3rem 0.7rem 3.5rem;
+    
+}
+
+.look-for-partner-text > a:hover{
+    background-color: gray;
+    color: white;
+}
+
+/* fine look-for-partner-section */
+
+/* inizio operations card section */
+
+.operations-card-section{
+    position: relative;
+    width: 70%;
+    height: 150vh;
+    margin: auto;
+    /* background-color: pink; */
+    padding-top: 2rem;
+}
+
+.operations-card-section-title > h4{
+    font-size: 40px;
+    margin-bottom: 2rem;
+}
+
+.cards-img-text-container{
+    width: calc(100% / 3);
+    height: 50%;
+    float: left;
+}
+
+.cards-img-text-container > img{
+width: 80%;
+}
+
+.cards-img-text-container > h5{
+    font-size: 26px;
+    margin-bottom: 1.5rem;
+}
+
+.cards-img-text-container > p{
+    width: 70%;
+    font-size: 14px;
+    color: gray;
+    font-weight: 500;
+    line-height: 1rem;
+}
+
+.clients-section{
+    position: relative;
+    width: 100%;
+    height: 62vh;
+    margin: auto;
+    /* background-color: brown; */
+    margin-top: 2rem;
+}
+
+.clients-section-title{
+    width: 70%;
+    margin: auto;
+}
+
+.clients-section-title > h5{
+    font-size: 36px;
+    margin-bottom: 2rem;
+    width: 43%;
+}
+
+.clients-section-title > a{
+    text-decoration: none;
+    margin-bottom: 2rem;
+}
+
+.client-box-container{
+    width: 460px;
+    height: 300px;
+    /* background-color: aquamarine; */
+    float: left;
+}
+
+.client-box{
+    width: 230px;
+    height: 250px;
+    /* background-color: blue; */
+    /* border: 2px solid black; */
+    float: left;
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 2rem;
+}
+
+.client-box2{
+    width: 230px;
+    height: 250px;
+    /* background-color: blue; */
+    /* border: 2px solid black; */
+    float: right;
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 2rem;
+}
+/* NON RIESCO A SPOSTARLI A DESTRAA */
+.client-box:hover{
+    border: 10px solid lightgrey;
+   
+}
+
+#arizona{
+    background-color: lightgreen;
+    background-image: url("../img/arizona_state_university.svg");
+
+}
+
+#designit{
+    background-image: url("../img/designit.svg");
+    background-color: rgb(52, 2, 2);
+}
+#florida{
+    background-image: url("../img/university_of_florida.svg");
+}
+#topps{
+    background-image: url("../img/topps.svg");
+}
+
+
+
+.middle-designit{
+    width: 600px;
+    height: 470px;
+    background-color: antiquewhite;
+    float: left;
+    position: relative;
+}
+
+.middle-designit > img{
+    width: 50%;
+    height: 10%;
+    text-align: left;
+    margin-top: 3rem;
+}
+
+.middle-designit > .break-line{
+    top: 25%;
+    margin-left: 4rem;
+}
+
+.middle-designit > p{
+    margin: 5rem 3rem;
+}
+
+/* fine clients section */
+
+/* inizio free trial section */
+
+
+.free-try-section{
+    width: 100%;
+    height: 45vh;
+    background-color: rgb(180 208 231);
+    position: relative;
+}
+
+.free-try-section-container{
+    width: 70%;
+    margin: auto;
+    height: 100%;
+    padding-top: 8rem;
+}
+
+.free-try-section-container > h5{
+    float: left;
+    font-size: 40px;
+    width: 45%;
+}
+
+
+.free-try-section-container > a{
+    float: right;
+    width: 30%;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    background-color: white;
+    padding: 0.7rem 2.5rem 0.7rem 2.5rem;
+}
+
+.free-try-section-container > a:hover{
+    background-color: gray;
+    color: white;
+}
+
+/* fine free trial section */
+
+/* inizio faq section */
+
+
+
+.faq-section-container{
+    width: 70%;
+    margin: auto;
+    /* height: 85vh; */
+    /* background-color: blue; */
+    position: relative;
+}
+
+
+.faq-section-container-title{
+    font-size: 40px;
+    padding-top: 7rem;
+    padding-bottom: 2rem;
+}
+
+.faq-section-container-question{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+
+.faq-section-container-question > .question{
+    float: left;
+    width: 70%;
+    font-size: 18px;
+    color: black;
+    font-weight: bold;
+}
+
+.faq-section-container-question > .answer{
+    display: none;
+    padding-top: 1.5rem;
+}
+
+.faq-section-container-question:hover .answer{
+    display: inline-block;
+}
+
+.faq-section-container-question > span{
+    float: right;
+    padding-right: 2rem;
+    font-size: 20px;
+}
+
+/* fine faq section */
+/* inizio footer */
+
+footer{
+    width: 100%;
+    height: 60vh;
+    background-color: black;
+}
+
+
+footer > .footer-wrapper{
+    width: 80%;
+    /* background-color: yellow; */
+    height: 100%;
+    margin: auto;
+    position: relative;
+}
+
+.footer-wrapper > .footer-list{
+    width: calc(100% / 5);
+    height: 40%;
+    /* background-color: pink; */
+    float: left;
+    color: white;
+    margin-bottom: 3rem;
+} 
+
+.footer-list > h6{
+    
+    font-size: 16px;
+    font-weight: bold;
+    text-align: left;
+    padding-top: 2.5rem;
+    padding-bottom: 1rem;
+}
+
+.footer-list > ul{
+    list-style-type: none;
+}
+
+.footer-list li{
+    padding-bottom: 0.6rem;
+}
+
+.footer-list a{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+
+.footer-list a:hover{
+    text-decoration: underline;
+}
+
+.footer-wrapper > .break-line{
+    top: 50%;
+    left: 0%;
+    margin: 0;
+    margin-bottom: 1rem;
+}
+
+#language-select{
+    background-color: rgb(35 39 42);
+    color: gray;
+    font-size: 10px;
+    border: none;
+    padding: 0.1rem;
+}
+
+
+
